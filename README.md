@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+# T-Sender UI
+
+## Overview
+
+T-Sender UI is a Web3 application built with Next.js, utilizing various libraries and frameworks such as RainbowKit, Wagmi, and Tailwind CSS. This repository contains the source code for the application.
+
+## Features
+
+* Wallet setup and management using Synpress and MetaMask
+* Support for multiple blockchain networks (Anvil, Zksync, and Mainnet)
+* Integration with RainbowKit for wallet connectivity
+* Utilizes Wagmi for blockchain interactions
+* Customizable theme using Next Themes
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository: `git clone https://github.com/viktorhugo/t-sender-ui.git`
+2. Install dependencies: `npm install` or `yarn install`
+3. Start the development server: `npm run dev` or `yarn dev`
+4. Open your browser and navigate to `http://localhost:3000`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Testing
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This repository uses Vitest for testing. To run tests, use the following command:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* `npm run test` or `yarn test`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## E2E Testing
 
-## Learn More
+This repository also use Synpress and Playwright for end-to-end for testing. To run tests, use the following command:
 
-To learn more about Next.js, take a look at the following resources:
+* `npm playwright test --ui` or `yarn playwright test --ui`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Configuration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The application uses environment variables for configuration. You can find the configuration options in the [src/rainbowKitConfig.tsx](cci:7://file:///Users/victormosquera/proyects/victor/DeFi/t-sender-ui/src/rainbowKitConfig.tsx:0:0-0:0) file.
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository, make your changes, and submit a pull request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+## Acknowledgments
+
+This project uses various open-source libraries and frameworks. We'd like to thank the maintainers and contributors of these projects for their hard work and dedication.
