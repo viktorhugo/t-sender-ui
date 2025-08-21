@@ -8,7 +8,7 @@
 [![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
 [![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev/)
 
-T-Sender UI is the official frontend for the **T-Sender Smart Contract**, a tool designed for efficiently sending ERC20 tokens to multiple addresses in a single transaction (airdrop). This application provides a user-friendly interface to connect to a Web3 wallet and interact with the smart contract deployed on the **Sepolia testnet**.
+T-Sender UI is the frontend for the **T-Sender Smart Contract**, a tool designed for efficiently sending ERC20 tokens to multiple addresses in a single transaction (airdrop). This application provides a user-friendly interface to connect to a Web3 wallet and interact with the smart contract deployed on the **Sepolia testnet**.
 
 The project is built with a modern tech stack, including Next.js, RainbowKit for wallet connectivity, and Wagmi for smart contract interactions.
 
